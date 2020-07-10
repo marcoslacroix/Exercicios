@@ -1,13 +1,14 @@
 package lista01;
 
+// Ler uma temperatura em graus Celsius e apresentá-Ia convertida em graus Fahrenheit. A fórmula de conversão de
+// temperatura a ser utilizada é F = (C * 1.8 ) + 32, em que a variável F representa é a temperatura em graus
+// Fahrenheit e a variável C representa é a temperatura em graus Celsius.
+
 import java.util.Scanner;
 
 public class Exercicio06 {
-    public static void main(String[] args) {
 
-        //Ler uma temperatura em graus Celsius e apresentá-Ia convertida em graus Fahrenheit. A fórmula de conversão de
-        //temperatura a ser utilizada é F = (C * 1.8 ) + 32, em que a variável F representa é a temperatura em graus
-        //Fahrenheit e a variável C representa é a temperatura em graus Celsius.
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 

@@ -1,12 +1,13 @@
 package lista01;
 
+// Calcular e apresentar o valor do volume de uma lata de óleo, utilizando a fórmula:
+// V =  3.14159 * R * R * A
+
 import java.util.Scanner;
 
 public class Exercicio08 {
-    public static void main(String[] args) {
 
-        //Calcular e apresentar o valor do volume de uma lata de óleo, utilizando a fórmula:
-        //V =  3.14159 * R * R * A
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         double raioLata, alturaLata, VolumeLata;

@@ -14,6 +14,22 @@ public class Exercicio03 {
 
         Scanner sc = new Scanner(System.in);
 
+        double pao = 0.12;
+        double broa = 1.50;
+
+        System.out.print("Digite a quantidade de pães franceses vendido: ");
+        int quantidadePao = sc.nextInt();
+        System.out.print("Digite a quantidade de broas vendidas: ");
+        int quantidadeBroa = sc.nextInt();
+
+        double resultado = (pao * quantidadePao) + (broa * quantidadeBroa);
+        double poupanca = resultado * 0.10;
+
+        System.out.println("Foram arrecadados R$" + resultado + " no final do dia e o valor para depositar na conta " +
+                "poupança é de R$" + poupanca);
+
+
+
 
     }
 }

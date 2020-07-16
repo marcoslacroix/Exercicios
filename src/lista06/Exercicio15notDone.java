@@ -6,7 +6,7 @@ package lista06;
 
 import java.util.Scanner;
 
-public class Exercicio15 {
+public class Exercicio15notDone {
 
     public static void main(String[] args) {
 
@@ -14,14 +14,5 @@ public class Exercicio15 {
 
         System.out.print("Informe o valor da conta: ");
         double valorConta = sc.nextDouble();
-
-        double carlos = valorConta / 3;
-        int andre = (int) valorConta / 3;
-        double felipe = valorConta / 3;
-        System.out.println(carlos);
-        System.out.println(andre);
-        System.out.println(felipe);
-        
-
     }
 }

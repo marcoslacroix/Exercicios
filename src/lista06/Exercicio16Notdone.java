@@ -7,27 +7,11 @@ package lista06;
 
 import java.util.Scanner;
 
-public class Exercicio16 {
+public class Exercicio16Notdone {
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
-        float queijo = (float) (0.50 * 2);
-        float presunto = (float) (0.50 * 1);
-        float hamburguer = (float) (0.100 * 1);
-
-        System.out.print("Informe a quantidade de sanduíches a fazer: ");
-        int quantidadeSanduiches = sc.nextInt();
-
-        float totalQueijo = quantidadeSanduiches * queijo;
-        float totalPresunto = quantidadeSanduiches * presunto;
-        float totalHamburguer = quantidadeSanduiches * hamburguer;
-
-        System.out.println(presunto * 10 * 10);
-        System.out.println(totalQueijo + " kilos de queijo");
-        System.out.println(totalPresunto + " kilos de presunto");
-        System.out.println(totalHamburguer + " kilos de hamburguer");
 
     }
 }
